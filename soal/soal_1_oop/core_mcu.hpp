@@ -5,11 +5,7 @@ using namespace std;
 /*[TODO]: Implementasikanlah class berikut didalam file robot.cpp agar main.cpp dapat dijalankan */
 class Core_MCU{
 private:
-    float cpu_clock;
-    int memory;
-    string os;
-    string nama;
-    int volt:
+    //[TODO]:Buatlah atribute atribute dalam class ini
 public:
     Core_MCU(float cpu_speed,int memory,string os,string nama,int volt);
     void showSpek();
